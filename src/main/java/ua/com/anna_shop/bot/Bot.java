@@ -92,9 +92,9 @@ public class Bot extends TelegramLongPollingBot implements TradeConstants {
                 case STOP_BUTTON_NAME:
                     botStop(user);
                     break;
-                case "99999":
+                case "12345":
                     botSendMessage(user, "Бот остановлен...");
-                    System.exit(99999);
+                    System.exit(123459);
                     break;
                 default:
                     if (userSessions.containsKey(getSessionName(user))) {
